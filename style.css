@@ -4,53 +4,120 @@
 }
 
 :root {
-  font-family: "Alice", serif;
-  line-height: 150%;
-  color: #573A37;
-}
-
-body {
-  background-image: url(assets/bg-image.jpg);
-  background-size: cover;
+  background-color: #F5F4F0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #333333;
 }
 
 #page {
-  width: 800px;
+  width: 1120px;
   box-sizing: border-box;
-  padding: 24px;
-  background-color: #F0E8C2;
-  border-radius: 24px;
-  margin: 48px auto;
+  padding: 40px;
+  margin: 0px auto;
 }
 
 img {
-  border-radius: 16px;
-}
-
-#about p + p {
-  margin-top: 12px;
-}
-
-section + section {
-  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 28px;
+  width: 100%;
 }
 
 h1 {
-  line-height: 140%;
-  font-size: 40px;
-  margin-bottom: 4px;
+  font-size: 36px;
+  color: #1B1B1B;
+  font-weight: bold;
+  margin-top: 8px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 32px;
+  color: #1B1B1B;
+  font-weight: bold;
 }
 
-h1,
-h2 {
-  color: #291B1A;
-  margin-bottom: 4px;
-  line-height: 150%;
+h3 {
+  font-size: 28px;
+  color: #1B1B1B;
+  font-weight: bold;
 }
+h4 {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.headline {
+  color: #E1624F;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+section>p {
+  font-style: italic;
+  text-align: center;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+#description {
+  margin: 24px 0px;
+}
+
+#content_list {
+  margin: 64px 0px;
+}
+
+#title_list {
+  margin: 48px 0px;
+}
+
+#title {
+  margin: 2px 0px;
+}
+
+
+#list .card_travel+.card_travel {
+  margin-top: 48px
+}
+
 ul {
-  padding-left: 24px;
+  padding: 0px 24px;
+}
+
+#final_text {
+  text-align: center;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  padding-bottom: 48px;
+}
+ul li {
+  font-weight: bold;
+}
+ul li::marker {
+  color: #333333;
+}
+
+ul .li_historia {
+  color: #0C51A7;
+}
+
+ul .li_casais {
+  color: #E95E10;
+}
+
+ul .li_familia {
+  color: #E5245E;
+}
+
+ul .li_orcamento {
+  color:#591B98;
 }
